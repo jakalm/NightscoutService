@@ -1,5 +1,5 @@
-/* The title of the Nightscout API secret */
-"API Secret" = "API Secret";
+/* No comment provided by engineer. */
+"Are you sure you want to reset the secret key?" = "Är du säker på att du vill återställa den hemliga nyckeln?";
 
 /* Button text to cancel Nightscout credential input */
 "Cancel" = "Avbryt";
@@ -7,14 +7,8 @@
 /* Description of ServiceStatus of checking */
 "Checking..." = "Kontrollerar...";
 
-/* Button title to delete a service */
-"Delete Service" = "Ta bort tjänst";
-
 /* No comment provided by engineer. */
-"Done" = "Färdig";
-
-/* The placeholder text for the Nightscout site URL */
-"https://mysite.herokuapp.com" = "https://mysite.herokuapp.com";
+"Done" = "Klar";
 
 /* Button text to login on Nightscout CredentialsView */
 "Login" = "Logga in";
@@ -34,15 +28,14 @@
 /* Description of ServiceStatus of checking */
 "OK" = "OK";
 
-/* The default placeholder for required text */
-"Required" = "Krävs";
+/* No comment provided by engineer. */
+"One-Time Password" = "Engångskod";
 
-/* The title of the Nightscout site URL */
-"Site URL" = "Nightscout-URL";
+/* No comment provided by engineer. */
+"Reset Secret Key" = "Återställ hemlig nyckel";
 
 /* No comment provided by engineer. */
 "Status" = "Status";
 
 /* No comment provided by engineer. */
 "URL" = "URL";
-
