@@ -29,14 +29,14 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
 
             VStack(spacing: 0) {
                 HStack {
-                    Text("URL")
+                    Text(NSLocalizedString("URL", comment: "URL row header in service status view"))
                     Spacer()
                     Text(viewModel.urlString)
                 }
                 .padding()
                 Divider()
                 HStack {
-                    Text("Status")
+                    Text(NSLocalizedString("Status", comment: "Status row header in service status view"))
                     Spacer()
                     Text(String(describing: viewModel.status))
                 }
@@ -44,7 +44,7 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
                 Divider()
                 NavigationLink(destination: OTPSelectionView(otpViewModel: otpViewModel), tag: "otp-view", selection: $selectedItem) {
                     HStack {
-                        Text("One-Time Password")
+                        Text(NSLocalizedString("One-Time Password", comment: "One-Time Password row header in service status view"))
                         Spacer()
                         Text(otpViewModel.otpCode)
                         Image(systemName: "chevron.right")
@@ -59,7 +59,7 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
             Button(action: {
                 viewModel.didLogout?()
             } ) {
-                Text("Logout").padding(.top, 20)
+                Text(NSLocalizedString("Logout", comment: "Logout button in service status view")).padding(.top, 20)
             }
         }
         .padding([.leading, .trailing])
@@ -69,7 +69,7 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
     
     private var dismissButton: some View {
         Button(action: dismiss) {
-            Text("Done").bold()
+            Text(NSLocalizedString("Done", comment: "Done button in service status view")).bold()
         }
     }
 }

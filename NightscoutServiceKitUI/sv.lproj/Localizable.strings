@@ -7,13 +7,13 @@
 /* Description of ServiceStatus of checking */
 "Checking..." = "Kontrollerar...";
 
-/* No comment provided by engineer. */
+/* Done button in service status view */
 "Done" = "Klar";
 
 /* Button text to login on Nightscout CredentialsView */
 "Login" = "Logga in";
 
-/* No comment provided by engineer. */
+/* Logout button in service status view */
 "Logout" = "Logga ut";
 
 /* No comment provided by engineer. */
@@ -28,14 +28,14 @@
 /* Description of ServiceStatus of checking */
 "OK" = "OK";
 
-/* No comment provided by engineer. */
+/* One-Time Password row header in service status view */
 "One-Time Password" = "Engångskod";
 
 /* No comment provided by engineer. */
 "Reset Secret Key" = "Återställ hemlig nyckel";
 
-/* No comment provided by engineer. */
+/* Status row header in service status view */
 "Status" = "Status";
 
-/* No comment provided by engineer. */
+/* URL row header in service status view */
 "URL" = "URL";
