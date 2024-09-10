@@ -18,7 +18,7 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
     @State private var selectedItem: String?
     var body: some View {
         VStack {
-            Text("Nightscout")
+            Text(LocalizedString("Nightscout", comment: "Title of service status view"))
                 .font(.largeTitle)
                 .fontWeight(.semibold)
             Image(frameworkImage: "nightscout", decorative: true)
@@ -29,14 +29,14 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
 
             VStack(spacing: 0) {
                 HStack {
-                    Text(NSLocalizedString("URL", comment: "URL row header in service status view"))
+                    Text(LocalizedString("URL", comment: "URL row header in service status view"))
                     Spacer()
                     Text(viewModel.urlString)
                 }
                 .padding()
                 Divider()
                 HStack {
-                    Text(NSLocalizedString("Status", comment: "Status row header in service status view"))
+                    Text(LocalizedString("Status", comment: "Status row header in service status view"))
                     Spacer()
                     Text(String(describing: viewModel.status))
                 }
@@ -59,7 +59,7 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
             Button(action: {
                 viewModel.didLogout?()
             } ) {
-                Text(NSLocalizedString("Logout", comment: "Logout button in service status view")).padding(.top, 20)
+                Text(LocalizedString("Logout", comment: "Logout button in service status view")).padding(.top, 20)
             }
         }
         .padding([.leading, .trailing])
@@ -69,7 +69,7 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
     
     private var dismissButton: some View {
         Button(action: dismiss) {
-            Text(NSLocalizedString("Done", comment: "Done button in service status view")).bold()
+            Text(LocalizedString("Done", comment: "Done button in service status view")).bold()
         }
     }
 }
