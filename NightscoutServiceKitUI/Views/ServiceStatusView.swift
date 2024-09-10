@@ -44,7 +44,7 @@ struct ServiceStatusView: View, HorizontalSizeClassOverride {
                 Divider()
                 NavigationLink(destination: OTPSelectionView(otpViewModel: otpViewModel), tag: "otp-view", selection: $selectedItem) {
                     HStack {
-                        Text(NSLocalizedString("One-Time Password", comment: "One-Time Password row header in service status view"))
+                        Text(LocalizedString("One-Time Password", comment: "One-Time Password row header in service status view"))
                         Spacer()
                         Text(otpViewModel.otpCode)
                         Image(systemName: "chevron.right")
