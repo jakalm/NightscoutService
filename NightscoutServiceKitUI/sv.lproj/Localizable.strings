@@ -1,4 +1,4 @@
-/* No comment provided by engineer. */
+/* Dialog text before resetting secret key */
 "Are you sure you want to reset the secret key?" = "Är du säker på att du vill återställa den hemliga nyckeln?";
 
 /* Button text to cancel Nightscout credential input */
@@ -16,7 +16,7 @@
 /* Logout button in service status view */
 "Logout" = "Logga ut";
 
-/* No comment provided by engineer. */
+/* Title of service status view */
 "Nightscout" = "Nightscout";
 
 /* Title on Nightscout CredentialsView */
@@ -31,7 +31,7 @@
 /* One-Time Password row header in service status view */
 "One-Time Password" = "Engångskod";
 
-/* No comment provided by engineer. */
+/* Dialog title to reset secret key */
 "Reset Secret Key" = "Återställ hemlig nyckel";
 
 /* Status row header in service status view */
